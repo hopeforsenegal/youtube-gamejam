@@ -17,30 +17,33 @@ else if(image_xscale > 0 && h_axis_input < 0)
 	image_xscale = abs(image_xscale) * -1;
 }
 
-var notLooping = !skeleton_animation_is_looping(0);
+var isLooping = skeleton_animation_is_looping(0);
 var isFinished = skeleton_animation_is_finished(0);
 
-if(v_axis_input != 0 || h_axis_input != 0)
-{
-	if(skeleton_animation_get() != "walk"){
-		skeleton_animation_set("walk", true);
+if(isLooping){
+	if(v_axis_input != 0 || h_axis_input != 0)
+	{
+		if(skeleton_animation_get() != "walk"){
+			skeleton_animation_set("walk", true);
+		}
 	}
-}
-else
-{	
-	if(skeleton_animation_get() != "idle"){
-		skeleton_animation_set("idle", true);
+	else
+	{	
+		if(skeleton_animation_get() != "idle"){
+			skeleton_animation_set("idle", true);
+		}
 	}
-}
-if(has_debug_point_input){
-	if(skeleton_animation_get() != "point"){
-		skeleton_animation_set("point", false);
+	if(has_debug_point_input){
+		if(skeleton_animation_get() != "point"){
+			skeleton_animation_set("point", false);
+		}
 	}
 }
 
-if(notLooping && isFinished){
+if(!isLooping && isFinished){
 	// We finshed pointing or being hit
 	skeleton_animation_set("idle", true);
+	show_debug_message("finsihed");
 }
 
 // NOTE:
