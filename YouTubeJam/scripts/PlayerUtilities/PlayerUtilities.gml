@@ -79,10 +79,9 @@ function gui_player_draw_health(gui_width){
 	for (var i = 0; i < oPlayer.maxHealth; i += 1)
 	{
 		var _xx = gui_width - 70 - (i * 70);
-		if(i >= oPlayer.maxHealth - oPlayer.myHealth){
-			draw_sprite(sHeartOn,  0, _xx, 48);
-		}else{
-			draw_sprite(sHeartOff, 0, _xx, 48);
-		}
+		var sprite = i >= oPlayer.maxHealth - oPlayer.myHealth
+			       ? sHeartOn
+				   : sHeartOff;
+		draw_sprite(sprite,  0, _xx, 48);
 	}
 }
