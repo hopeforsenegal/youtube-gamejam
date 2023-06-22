@@ -28,6 +28,7 @@
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"sLava","order":2,"path":"sprites/sLava/sLava.yy",},
     {"name":"sTextCamera","order":5,"path":"sprites/sTextCamera/sTextCamera.yy",},
+    {"name":"toMovement","order":8,"path":"objects/toMovement/toMovement.yy",},
     {"name":"sDoor","order":4,"path":"sprites/sDoor/sDoor.yy",},
     {"name":"sTextItems","order":6,"path":"sprites/sTextItems/sTextItems.yy",},
     {"name":"toLifePod","order":6,"path":"objects/toLifePod/toLifePod.yy",},
