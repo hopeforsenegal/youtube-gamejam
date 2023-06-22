@@ -40,7 +40,6 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
