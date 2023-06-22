@@ -39,6 +39,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"PlayerUtilities","path":"scripts/PlayerUtilities/PlayerUtilities.yy",},},
     {"id":{"name":"pInteractable","path":"objects/pInteractable/pInteractable.yy",},},
+    {"id":{"name":"pItem","path":"objects/pItem/pItem.yy",},},
     {"id":{"name":"sInteractable","path":"sprites/sInteractable/sInteractable.yy",},},
     {"id":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
@@ -49,8 +50,8 @@
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
+    {"roomId":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"roomId":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
   ],
   "TextureGroups": [

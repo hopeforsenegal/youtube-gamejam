@@ -20,6 +20,7 @@
     {"name":"trScans","order":2,"path":"rooms/trScans/trScans.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"pInteractable","order":2,"path":"objects/pInteractable/pInteractable.yy",},
+    {"name":"pItem","order":3,"path":"objects/pItem/pItem.yy",},
     {"name":"sInteractable","order":2,"path":"sprites/sInteractable/sInteractable.yy",},
     {"name":"trHazards","order":1,"path":"rooms/trHazards/trHazards.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},

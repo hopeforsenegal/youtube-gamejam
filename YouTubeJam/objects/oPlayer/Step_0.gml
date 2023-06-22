@@ -16,11 +16,14 @@ if(!place_meeting(x,y+_vsp,oWall))
 
 
 var _iin = keyboard_check_pressed(ord("E"));
-if(_iin)
+var _int = detect_interactable(x,y,interactRange);
+if(_iin && _int != noone)
 {
-	var _int = detect_interactable(x,y,interactRange);
-	if(_int != noone)
-	{
-		_int.interact();
-	}
+	_int.interact();
+}
+
+
+if(keyboard_check_pressed(vk_space))
+{
+	show_debug_message(inventory);
 }
