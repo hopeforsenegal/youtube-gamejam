@@ -43,6 +43,7 @@
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"pItem","path":"objects/pItem/pItem.yy",},},
     {"id":{"name":"sInteractable","path":"sprites/sInteractable/sInteractable.yy",},},
+    {"id":{"name":"sScanCone","path":"sprites/sScanCone/sScanCone.yy",},},
     {"id":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"ScanUtilities","path":"scripts/ScanUtilities/ScanUtilities.yy",},},

@@ -1,5 +1,5 @@
 
-function scan(_roomwidth,_roomheight,_tilesize = 32)
+function environment_scan(_roomwidth,_roomheight,_tilesize = 32)
 {
 	var _w = _roomwidth/_tilesize;
 	var _h = _roomheight/_tilesize;
@@ -21,7 +21,7 @@ function scan(_roomwidth,_roomheight,_tilesize = 32)
 	return _maparray;
 }
 
-function render_scan_full(_maparray)
+function render_environment_scan_full(_maparray)
 {
 	var _w = array_length(_maparray);
 	var _h = array_length(_maparray[0])
@@ -44,5 +44,16 @@ function render_scan_full(_maparray)
 	draw_set_color(c_white);
 	surface_reset_target();
 	
+	return _surface;
+}
+
+function render_environment_scan_cone(_maparray)
+{
+	var _surface = render_environment_scan_full(_maparray);
+	surface_set_target(_surface);
+	gpu_set_blendmode(bm_subtract);
+	draw_sprite_ext(sScanCone,1,0,0,1,1,0,c_white,1);
+	gpu_set_blendmode(bm_normal);
+	surface_reset_target();
 	return _surface;
 }
