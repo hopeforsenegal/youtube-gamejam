@@ -15,8 +15,13 @@ function detect_interactable(_x,_y,_range){
 	}
 }
 
+function player_is_invincible(){
+	return oPlayer.invincibilityFrames > 0;
+}
+
 function player_decrement_health(){
 	oPlayer.myHealth = oPlayer.myHealth - 1;
+	oPlayer.invincibilityFrames = 90;
 	return oPlayer.myHealth;
 }
 

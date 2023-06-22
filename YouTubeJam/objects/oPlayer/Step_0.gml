@@ -24,3 +24,7 @@ if(_iin)
 		_int.interact();
 	}
 }
+
+if(invincibilityFrames > 0){
+	invincibilityFrames--;
+}
