@@ -1,10 +1,19 @@
-
+var has_debug_inventory_input	= keyboard_check_pressed(vk_space);
 var h_axis_input = max(keyboard_check(ord("D")), keyboard_check(vk_right)) - max(keyboard_check(ord("A")), keyboard_check(vk_left));
 var v_axis_input = max(keyboard_check(ord("S")), keyboard_check(vk_down))  - max(keyboard_check(ord("W")), keyboard_check(vk_up));
-var has_debug_inventory_input	= keyboard_check_pressed(vk_space);
+
 
 var _hsp = h_axis_input * mySpeed;
 var _vsp = v_axis_input * mySpeed;
+
+	if(keyboard_check(ord("P"))) {
+		skeleton_animation_set("point", false);
+		show_debug_message("point");
+	}
+	if(keyboard_check(ord("L"))) {
+		skeleton_animation_set("walk", true);
+		show_debug_message("walk");
+	}
 
 if(image_xscale < 0 && h_axis_input > 0)
 {

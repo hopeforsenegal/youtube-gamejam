@@ -1,0 +1,28 @@
+man.png
+size:2048,256
+filter:Linear,Linear
+pma:true
+ant l
+bounds:1234,65,67,102
+rotate:90
+ant r
+bounds:345,95,22,102
+rotate:90
+arm l
+bounds:345,119,130,345
+rotate:90
+arm r
+bounds:2,95,154,341
+rotate:90
+body
+bounds:692,53,196,284
+rotate:90
+head
+bounds:978,38,211,254
+rotate:90
+leg l
+bounds:1234,134,115,254
+rotate:90
+leg r
+bounds:2,2,91,264
+rotate:90
