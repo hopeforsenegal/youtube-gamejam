@@ -15,11 +15,8 @@ if(has_player_detect_lava())
 	}
 }
 
-if(player.oxygenRemainingFrames > 0)
-{
-	player.oxygenRemainingFrames--;
-}
-else
+var oxygenRemaining = player_do_decrement_ocygen();
+if(player_is_suffocated())
 {
 	show_debug_message("I suffocated!!!");
 }
