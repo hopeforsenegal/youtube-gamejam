@@ -51,20 +51,24 @@ function render_scan_full(_maparray,_type = 0)
 }
 
 
-function render_scan_cone(_surface,_conex,_coney,_coneangle,_tilesize = 32)
+function render_scan_cone(_surface,_conex,_coney,_coneangle,_conescale,_tilesize = 32)
 {
 	_conex /= _tilesize;
 	_coney /= _tilesize;
-	surface_set_target(_surface);
-	gpu_set_blendmode(bm_subtract);
-	draw_sprite_ext(sScanCone,1,_conex,_coney,0.02,0.02,_coneangle,c_white,1);
+	var _newsurface = surface_create(surface_get_width(_surface),surface_get_height(_surface));
+	
+	surface_set_target(_newsurface);
+	draw_clear_alpha(c_white,0);
+	draw_sprite_ext(sScanCone,0,_conex,_coney,_conescale,_conescale,_coneangle,c_white,1);
+	gpu_set_blendmode_ext(bm_dest_alpha,bm_zero);
+	draw_surface(_surface,0,0);
 	gpu_set_blendmode(bm_normal);
 	surface_reset_target();
-	return _surface;
+	return _newsurface;
 }
 
-function render_scan(_maparray,_conex,_coney,_coneangle,_type = 0)
+function render_scan(_maparray,_conex,_coney,_coneangle,_conescale,_type = 0)
 {
 	var _full = render_scan_full(_maparray,_type);
-	return render_scan_cone(_full,_conex,_coney,_coneangle);
+	return render_scan_cone(_full,_conex,_coney,_coneangle,_conescale);
 }
