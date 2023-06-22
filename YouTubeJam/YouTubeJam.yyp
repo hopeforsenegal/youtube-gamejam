@@ -49,8 +49,8 @@
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"roomId":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
+    {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"roomId":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
   ],
   "TextureGroups": [
