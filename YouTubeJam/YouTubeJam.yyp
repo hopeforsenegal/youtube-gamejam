@@ -46,6 +46,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"sLava","path":"sprites/sLava/sLava.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
+    {"id":{"name":"toLifePod","path":"objects/toLifePod/toLifePod.yy",},},
     {"id":{"name":"toHazards","path":"objects/toHazards/toHazards.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
@@ -53,10 +54,10 @@
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
     {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"roomId":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"roomId":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
-    {"roomId":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

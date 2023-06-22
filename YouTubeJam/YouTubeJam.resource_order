@@ -27,6 +27,7 @@
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"sLava","order":2,"path":"sprites/sLava/sLava.yy",},
     {"name":"sDoor","order":4,"path":"sprites/sDoor/sDoor.yy",},
+    {"name":"toLifePod","order":6,"path":"objects/toLifePod/toLifePod.yy",},
     {"name":"toHazards","order":3,"path":"objects/toHazards/toHazards.yy",},
     {"name":"rLifePod","order":5,"path":"rooms/rLifePod/rLifePod.yy",},
   ],
