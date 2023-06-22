@@ -4,6 +4,6 @@ name = "Doohickey";
 
 interact = function()
 {
-	array_push(oPlayer.inventory, name);
-	instance_destroy();
+	player_add_inventory(self);
+	instance_destroy(self);
 }

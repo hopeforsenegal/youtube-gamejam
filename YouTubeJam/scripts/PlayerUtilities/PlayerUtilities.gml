@@ -19,21 +19,25 @@ function detect_interactable(_x,_y,_range,_enable = true){
 	}
 }
 
+function player_add_inventory(item){
+	array_push(oPlayer.inventory, item.name);
+}
+
 function player_is_invincible(){
 	return oPlayer.invincibilityFrames > 0;
+}
+
+function player_is_dead(){
+	return oPlayer.myHealth <= 0;
 }
 
 function player_do_mark_invincible(){
 	oPlayer.invincibilityFrames = 90;
 }
 
-function player_decrement_health(){
+function player_do_decrement_health(){
 	oPlayer.myHealth = oPlayer.myHealth - 1;
 	return oPlayer.myHealth;
-}
-
-function player_is_dead(){
-	return oPlayer.myHealth <= 0;
 }
 
 function has_player_detect_lava(){
@@ -66,4 +70,15 @@ function has_player_detect_door(){
 		}
 	}
 	return false;
+}
+
+
+
+
+function gui_player_draw_health(gui_width){
+	for (var i = 0; i < oPlayer.myHealth; i += 1)
+	{
+		var _xx = gui_width - 48 - (i * 70);
+		draw_sprite(sHeart, 0, _xx, 48);
+	}
 }
