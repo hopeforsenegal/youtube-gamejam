@@ -82,3 +82,39 @@ function gui_player_draw_health(gui_width){
 		draw_sprite(sHeart, 0, _xx, 48);
 	}
 }
+
+
+
+
+function create_ui()
+{
+	oPlayer.canMove = false;
+	return instance_create_layer(0,0,"Instances",pUI);
+}
+
+function destroy_ui(_ui)
+{
+	oPlayer.canMove = true;
+	instance_destroy(_ui);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

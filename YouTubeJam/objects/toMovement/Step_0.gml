@@ -6,8 +6,15 @@ with(oPlayer){
 
 	if(has_interact_input && _int != noone)
 	{
-		player_add_inventory(_int);
-		instance_destroy(_int);
-		show_debug_message("We did inventory stuff!");
-	}	
+		if(_int.object_index == pItem)
+		{
+			player_add_inventory(_int);
+			instance_destroy(_int);
+			show_debug_message("We did inventory stuff!");
+		}
+		else if(_int.object_index == pInteractable)
+		{
+			create_ui(pUI);
+		}
+	}
 }

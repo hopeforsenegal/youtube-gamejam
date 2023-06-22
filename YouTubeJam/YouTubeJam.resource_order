@@ -21,6 +21,7 @@
     {"name":"trScans","order":3,"path":"rooms/trScans/trScans.yy",},
     {"name":"sItemIcon","order":8,"path":"sprites/sItemIcon/sItemIcon.yy",},
     {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
+    {"name":"pUI","order":7,"path":"objects/pUI/pUI.yy",},
     {"name":"pInteractable","order":3,"path":"objects/pInteractable/pInteractable.yy",},
     {"name":"oDoor","order":5,"path":"objects/oDoor/oDoor.yy",},
     {"name":"pItem","order":4,"path":"objects/pItem/pItem.yy",},
