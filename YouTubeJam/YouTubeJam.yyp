@@ -51,6 +51,7 @@
     {"id":{"name":"sTextCamera","path":"sprites/sTextCamera/sTextCamera.yy",},},
     {"id":{"name":"toMovement","path":"objects/toMovement/toMovement.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
+    {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},},
     {"id":{"name":"sTextItems","path":"sprites/sTextItems/sTextItems.yy",},},
     {"id":{"name":"toLifePod","path":"objects/toLifePod/toLifePod.yy",},},
     {"id":{"name":"toHazards","path":"objects/toHazards/toHazards.yy",},},
@@ -61,10 +62,10 @@
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"roomId":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
     {"roomId":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
-    {"roomId":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"roomId":{"name":"rOutside","path":"rooms/rOutside/rOutside.yy",},},
   ],
   "TextureGroups": [

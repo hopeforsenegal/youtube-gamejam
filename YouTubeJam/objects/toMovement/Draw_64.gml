@@ -1,0 +1,1 @@
+gui_player_draw_health(gui_w);

@@ -71,3 +71,14 @@ function has_player_detect_door(){
 	}
 	return false;
 }
+
+
+
+
+function gui_player_draw_health(gui_width){
+	for (var i = 0; i < oPlayer.myHealth; i += 1)
+	{
+		var _xx = gui_width - 48 - (i * 70);
+		draw_sprite(sHeart, 0, _xx, 48);
+	}
+}
