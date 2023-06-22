@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sHeart",
-  "bbox_bottom": 63,
-  "bbox_left": 9,
-  "bbox_right": 52,
-  "bbox_top": 14,
+  "name": "sHeartOn",
+  "bbox_bottom": 61,
+  "bbox_left": 1,
+  "bbox_right": 70,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fd01ec2c-7fcc-47cd-930a-cad333908f9f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aec11962-6eb2-4505-b2f6-0693e15d1071",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 63,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1ac5e147-ff76-495f-9e3f-643b2ca973b7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"883c3622-c647-4683-893d-8b79a939ad0b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sHeart",
+    "name": "sHeartOn",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fd01ec2c-7fcc-47cd-930a-cad333908f9f","path":"sprites/sHeart/sHeart.yy",},},},"Disabled":false,"id":"50ffc824-c5f2-4372-98be-8d859b0dfdd5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"aec11962-6eb2-4505-b2f6-0693e15d1071","path":"sprites/sHeartOn/sHeartOn.yy",},},},"Disabled":false,"id":"e575bfd1-476e-442f-8042-c6e00a82a34a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 72,
 }
