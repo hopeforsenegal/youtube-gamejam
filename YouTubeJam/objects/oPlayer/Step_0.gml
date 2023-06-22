@@ -1,6 +1,6 @@
 
-var _hin = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-var _vin = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+var _hin = max(keyboard_check(ord("D")), keyboard_check(vk_right)) - max(keyboard_check(ord("A")), keyboard_check(vk_left));
+var _vin = max(keyboard_check(ord("S")), keyboard_check(vk_down))  - max(keyboard_check(ord("W")), keyboard_check(vk_up));
 
 var _hsp = _hin * mySpeed;
 var _vsp = _vin * mySpeed;
