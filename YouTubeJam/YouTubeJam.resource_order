@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"rOutside","order":7,"path":"rooms/rOutside/rOutside.yy",},
     {"name":"trScans","order":2,"path":"rooms/trScans/trScans.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"pInteractable","order":2,"path":"objects/pInteractable/pInteractable.yy",},
@@ -31,7 +32,7 @@
     {"name":"sTextItems","order":6,"path":"sprites/sTextItems/sTextItems.yy",},
     {"name":"toLifePod","order":6,"path":"objects/toLifePod/toLifePod.yy",},
     {"name":"toHazards","order":3,"path":"objects/toHazards/toHazards.yy",},
-    {"name":"rOutside","order":7,"path":"rooms/rOutside/rOutside.yy",},
     {"name":"rLifePod","order":5,"path":"rooms/rLifePod/rLifePod.yy",},
+    {"name":"sPlayer","order":7,"path":"sprites/sPlayer/sPlayer.yy",},
   ],
 }
