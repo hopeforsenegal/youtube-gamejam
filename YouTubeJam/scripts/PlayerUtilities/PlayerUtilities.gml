@@ -19,6 +19,23 @@ function detect_interactable(_x,_y,_range,_enable = true){
 	}
 }
 
+function player_is_invincible(){
+	return oPlayer.invincibilityFrames > 0;
+}
+
+function player_do_mark_invincible(){
+	oPlayer.invincibilityFrames = 90;
+}
+
+function player_decrement_health(){
+	oPlayer.myHealth = oPlayer.myHealth - 1;
+	return oPlayer.myHealth;
+}
+
+function player_is_dead(){
+	return oPlayer.myHealth <= 0;
+}
+
 function has_player_detect_lava(){
 	for (var i = 0; i < instance_number(oLava); ++i;)
 	{
