@@ -25,6 +25,8 @@
     {"name":"trHazards","order":1,"path":"rooms/trHazards/trHazards.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"ScanUtilities","order":1,"path":"scripts/ScanUtilities/ScanUtilities.yy",},
     {"name":"toHazards","order":3,"path":"objects/toHazards/toHazards.yy",},
+    {"name":"toScans","order":4,"path":"objects/toScans/toScans.yy",},
   ],
 }
