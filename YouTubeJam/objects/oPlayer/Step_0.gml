@@ -15,4 +15,12 @@ if(!place_meeting(x,y+_vsp,oWall))
 }
 
 
-show_debug_message(detect_interactable(x,y,interactRange));
+var _iin = keyboard_check_pressed(ord("E"));
+if(_iin)
+{
+	var _int = detect_interactable(x,y,interactRange);
+	if(_int != noone)
+	{
+		_int.interact();
+	}
+}

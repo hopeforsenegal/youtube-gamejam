@@ -1,5 +1,5 @@
 
 mySpeed = 4;
-interactRange = 48;
+interactRange = 70;
 
 
