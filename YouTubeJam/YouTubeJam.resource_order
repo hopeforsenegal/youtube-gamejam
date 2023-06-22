@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"sScanCone","order":1,"path":"sprites/sScanCone/sScanCone.yy",},
     {"name":"rOutside","order":7,"path":"rooms/rOutside/rOutside.yy",},
     {"name":"trScans","order":2,"path":"rooms/trScans/trScans.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
@@ -9,6 +8,7 @@
     {"name":"oDoor","order":4,"path":"objects/oDoor/oDoor.yy",},
     {"name":"pItem","order":3,"path":"objects/pItem/pItem.yy",},
     {"name":"sInteractable","order":3,"path":"sprites/sInteractable/sInteractable.yy",},
+    {"name":"sScanCone","order":1,"path":"sprites/sScanCone/sScanCone.yy",},
     {"name":"trHazards","order":1,"path":"rooms/trHazards/trHazards.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"sLava","order":2,"path":"sprites/sLava/sLava.yy",},

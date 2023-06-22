@@ -6,6 +6,15 @@ var has_debug_inventory_input	= keyboard_check_pressed(vk_space);
 var _hsp = h_axis_input * mySpeed;
 var _vsp = v_axis_input * mySpeed;
 
+if(image_xscale < 0 && h_axis_input > 0)
+{
+	image_xscale = abs(image_xscale) * 1;
+} 
+else if(image_xscale > 0 && h_axis_input < 0)
+{
+	image_xscale = abs(image_xscale) * -1;
+}
+
 if(!place_meeting(x+_hsp,y,oWall))
 {
 	x += _hsp;
