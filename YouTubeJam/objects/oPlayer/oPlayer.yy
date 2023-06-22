@@ -32,6 +32,9 @@
     "name": "sPlayerSpine",
     "path": "sprites/sPlayerSpine/sPlayerSpine.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "hbPlayer",
+    "path": "sprites/hbPlayer/hbPlayer.yy",
+  },
   "visible": true,
 }
