@@ -76,10 +76,13 @@ function has_player_detect_door(){
 
 
 function gui_player_draw_health(gui_width){
-	for (var i = 0; i < oPlayer.myHealth; i += 1)
+	for (var i = 0; i < oPlayer.maxHealth; i += 1)
 	{
-		var _xx = gui_width - 48 - (i * 70);
-		draw_sprite(sHeart, 0, _xx, 48);
+		var heart_position_x = gui_width - 70 - (i * 70);
+		var sprite = i >= oPlayer.maxHealth - oPlayer.myHealth
+			       ? sHeartOn
+				   : sHeartOff;
+		draw_sprite(sprite,  0, heart_position_x, 48);
 	}
 }
 
