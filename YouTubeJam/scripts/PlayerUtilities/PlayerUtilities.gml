@@ -15,6 +15,11 @@ function detect_interactable(_x,_y,_range){
 	}
 }
 
+function player_decrement_health(){
+	oPlayer.myHealth = oPlayer.myHealth - 1;
+	return oPlayer.myHealth;
+}
+
 function has_player_detect_lava(){
 	for (var i = 0; i < instance_number(oLava); ++i;)
 	{
