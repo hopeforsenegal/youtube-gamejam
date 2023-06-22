@@ -1,2 +1,2 @@
 
-maparray = scan(room_width,room_height);
+maparray = environment_scan(room_width,room_height);

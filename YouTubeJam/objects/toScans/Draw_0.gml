@@ -1,7 +1,7 @@
 
 if(keyboard_check(vk_space))
 {
-	var _surf = render_scan_full(maparray);
+	var _surf = render_environment_scan_cone(maparray);
 	draw_surface_ext(_surf,16,16,2,2,0,c_white,1);
 }
 
