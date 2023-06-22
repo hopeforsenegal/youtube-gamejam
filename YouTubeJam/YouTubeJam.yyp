@@ -37,6 +37,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"rOutside","path":"rooms/rOutside/rOutside.yy",},},
     {"id":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
+    {"id":{"name":"sItemIcon","path":"sprites/sItemIcon/sItemIcon.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"PlayerUtilities","path":"scripts/PlayerUtilities/PlayerUtilities.yy",},},
     {"id":{"name":"pInteractable","path":"objects/pInteractable/pInteractable.yy",},},
@@ -60,8 +61,8 @@
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
     {"roomId":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
+    {"roomId":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
     {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"roomId":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"roomId":{"name":"rOutside","path":"rooms/rOutside/rOutside.yy",},},

@@ -1,8 +1,11 @@
 
-function environment_scan(_roomwidth,_roomheight,_tilesize = 32)
+function scan(_roomwidth,_roomheight,_type = 0,_tilesize = 32)
 {
 	var _w = _roomwidth/_tilesize;
 	var _h = _roomheight/_tilesize;
+	
+	var _target = oWall;
+	if(_type == 1) _target = pItem;
 	
 	var _maparray = [];
 	for(var i=0;i<_w;i++)
@@ -10,7 +13,7 @@ function environment_scan(_roomwidth,_roomheight,_tilesize = 32)
 		var _columnarray = [];
 		for(var j=0;j<_h;j++)
 		{
-			var _obj = instance_place(i*_tilesize,j*_tilesize,oWall);
+			var _obj = instance_place(i*_tilesize,j*_tilesize,_target);
 			if(_obj != noone)
 				array_push(_columnarray,true);
 			else
@@ -21,13 +24,13 @@ function environment_scan(_roomwidth,_roomheight,_tilesize = 32)
 	return _maparray;
 }
 
-function render_environment_scan_full(_maparray)
+function render_scan_full(_maparray,_type = 0)
 {
 	var _w = array_length(_maparray);
 	var _h = array_length(_maparray[0])
+	
 	var _surface = surface_create(_w,_h);
 	surface_set_target(_surface);
-	draw_set_color(c_black);
 	draw_clear(c_white);
 	
 	for(var i=0;i<_w;i++)
@@ -36,24 +39,32 @@ function render_environment_scan_full(_maparray)
 		{
 			if(_maparray[i][j] != 0)
 			{
-				draw_point(i,j);
+				if(_type == 0) draw_point_color(i,j,c_black);
+				else if(_type == 1) draw_sprite(sItemIcon,0,i,j);
 			}
 		}
 	}
 	
-	draw_set_color(c_white);
 	surface_reset_target();
 	
 	return _surface;
 }
 
-function render_environment_scan_cone(_maparray)
+
+function render_scan_cone(_surface,_conex,_coney,_coneangle,_tilesize = 32)
 {
-	var _surface = render_environment_scan_full(_maparray);
+	_conex /= _tilesize;
+	_coney /= _tilesize;
 	surface_set_target(_surface);
 	gpu_set_blendmode(bm_subtract);
-	draw_sprite_ext(sScanCone,1,0,0,1,1,0,c_white,1);
+	draw_sprite_ext(sScanCone,1,_conex,_coney,0.02,0.02,_coneangle,c_white,1);
 	gpu_set_blendmode(bm_normal);
 	surface_reset_target();
 	return _surface;
+}
+
+function render_scan(_maparray,_conex,_coney,_coneangle,_type = 0)
+{
+	var _full = render_scan_full(_maparray,_type);
+	return render_scan_cone(_full,_conex,_coney,_coneangle);
 }
