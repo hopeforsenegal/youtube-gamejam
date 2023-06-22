@@ -26,6 +26,7 @@
     {"name":"pItem","order":4,"path":"objects/pItem/pItem.yy",},
     {"name":"sInteractable","order":3,"path":"sprites/sInteractable/sInteractable.yy",},
     {"name":"sScanCone","order":1,"path":"sprites/sScanCone/sScanCone.yy",},
+    {"name":"sPlayerSpine","order":9,"path":"sprites/sPlayerSpine/sPlayerSpine.yy",},
     {"name":"trHazards","order":2,"path":"rooms/trHazards/trHazards.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"sLava","order":2,"path":"sprites/sLava/sLava.yy",},

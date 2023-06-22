@@ -45,6 +45,7 @@
     {"id":{"name":"pItem","path":"objects/pItem/pItem.yy",},},
     {"id":{"name":"sInteractable","path":"sprites/sInteractable/sInteractable.yy",},},
     {"id":{"name":"sScanCone","path":"sprites/sScanCone/sScanCone.yy",},},
+    {"id":{"name":"sPlayerSpine","path":"sprites/sPlayerSpine/sPlayerSpine.yy",},},
     {"id":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"ScanUtilities","path":"scripts/ScanUtilities/ScanUtilities.yy",},},
@@ -63,9 +64,9 @@
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"roomId":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
     {"roomId":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
-    {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"roomId":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
     {"roomId":{"name":"rOutside","path":"rooms/rOutside/rOutside.yy",},},
   ],
