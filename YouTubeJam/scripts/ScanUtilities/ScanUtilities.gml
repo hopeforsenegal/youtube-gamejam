@@ -37,7 +37,7 @@ function render_scan_full(_maparray,_type = 0)
 	
 	var _surface = surface_create(_w,_h);
 	surface_set_target(_surface);
-	draw_clear_alpha(c_white,0);
+	draw_clear(c_white);
 	
 	for(var i=0;i<_w;i++)
 	{
@@ -76,5 +76,7 @@ function render_scan_cone(_surface,_conex,_coney,_coneangle,_conescale,_tilesize
 function render_scan(_maparray,_conex,_coney,_coneangle,_conescale,_type = 0)
 {
 	var _full = render_scan_full(_maparray,_type);
-	return render_scan_cone(_full,_conex,_coney,_coneangle,_conescale);
+	var _cone = render_scan_cone(_full,_conex,_coney,_coneangle,_conescale);
+	surface_free(_full);
+	return _cone;
 }
