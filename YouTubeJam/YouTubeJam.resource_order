@@ -59,6 +59,7 @@
     {"name":"sLava","order":2,"path":"sprites/sLava/sLava.yy",},
     {"name":"sTextCamera","order":5,"path":"sprites/sTextCamera/sTextCamera.yy",},
     {"name":"lava_bend_up","order":2,"path":"sprites/lava_bend_up/lava_bend_up.yy",},
+    {"name":"bg","order":34,"path":"sprites/bg/bg.yy",},
     {"name":"toMovement","order":8,"path":"objects/toMovement/toMovement.yy",},
     {"name":"wing1","order":4,"path":"sprites/wing1/wing1.yy",},
     {"name":"sPlayerSpine","order":32,"path":"sprites/sPlayerSpine/sPlayerSpine.yy",},

@@ -81,6 +81,7 @@
     {"id":{"name":"sLava","path":"sprites/sLava/sLava.yy",},},
     {"id":{"name":"sTextCamera","path":"sprites/sTextCamera/sTextCamera.yy",},},
     {"id":{"name":"lava_bend_up","path":"sprites/lava_bend_up/lava_bend_up.yy",},},
+    {"id":{"name":"bg","path":"sprites/bg/bg.yy",},},
     {"id":{"name":"toMovement","path":"objects/toMovement/toMovement.yy",},},
     {"id":{"name":"wing1","path":"sprites/wing1/wing1.yy",},},
     {"id":{"name":"sPlayerSpine","path":"sprites/sPlayerSpine/sPlayerSpine.yy",},},
