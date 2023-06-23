@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"sVision","order":3,"path":"sprites/sVision/sVision.yy",},
     {"name":"sWallSprite","order":2,"path":"sprites/sWallSprite/sWallSprite.yy",},
   ],
 }

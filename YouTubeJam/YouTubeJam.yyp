@@ -64,6 +64,7 @@
     {"id":{"name":"oScanUI","path":"objects/oScanUI/oScanUI.yy",},},
     {"id":{"name":"lava_right3","path":"sprites/lava_right3/lava_right3.yy",},},
     {"id":{"name":"PlayerUtilities","path":"scripts/PlayerUtilities/PlayerUtilities.yy",},},
+    {"id":{"name":"sVision","path":"sprites/sVision/sVision.yy",},},
     {"id":{"name":"oScanner","path":"objects/oScanner/oScanner.yy",},},
     {"id":{"name":"lava_bend_left","path":"sprites/lava_bend_left/lava_bend_left.yy",},},
     {"id":{"name":"pUI","path":"objects/pUI/pUI.yy",},},
