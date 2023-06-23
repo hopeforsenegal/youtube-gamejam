@@ -1,2 +1,2 @@
-name = "thruster1";
+name = "Left Thruster";
 sprite_index = thruster1;
