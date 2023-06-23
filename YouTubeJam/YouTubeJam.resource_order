@@ -2,11 +2,11 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"sDeadYouDied","order":4,"path":"sprites/sDeadYouDied/sDeadYouDied.yy",},
+    {"name":"sVision","order":3,"path":"sprites/sVision/sVision.yy",},
     {"name":"oDeadText","order":1,"path":"objects/oDeadText/oDeadText.yy",},
     {"name":"sDeadYouCrispy","order":5,"path":"sprites/sDeadYouCrispy/sDeadYouCrispy.yy",},
     {"name":"you_died","order":3,"path":"sprites/you_died/you_died.yy",},
-    {"name":"sWallSprite","order":2,"path":"sprites/sWallSprite/sWallSprite.yy",},    
-    {"name":"sVision","order":3,"path":"sprites/sVision/sVision.yy",},
+    {"name":"sWallSprite","order":2,"path":"sprites/sWallSprite/sWallSprite.yy",},
     {"name":"sDeadYouSuffocated","order":6,"path":"sprites/sDeadYouSuffocated/sDeadYouSuffocated.yy",},
   ],
 }
