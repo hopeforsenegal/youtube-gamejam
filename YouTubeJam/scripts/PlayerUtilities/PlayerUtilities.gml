@@ -110,6 +110,13 @@ function gui_player_draw_health(player, gui_width){
 	draw_text(heart_position_x, top_y + 10, "Health");
 }
 
+function gui_player_e_to_interact(gui_width, gui_height)
+{
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_text(gui_width/2, gui_height - 10, "Press 'E' to interact");
+}
+
 
 
 
