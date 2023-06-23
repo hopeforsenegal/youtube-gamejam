@@ -12,10 +12,20 @@ with(oPlayer){
 			{
 				player_add_inventory(_int);
 				instance_destroy(_int);
+				with(oScanner)
+				{
+					generate_scans();
+				}
 			}
 			else if(_int.object_index == pInteractable)
 			{
-				create_ui(oScanUI);
+				if(!instance_exists(pUI))
+				{
+					if(_int.type == 0)
+						create_ui(oScanUI);
+					else
+						create_ui(oItemUI);
+				}
 			}
 		}
 	}
