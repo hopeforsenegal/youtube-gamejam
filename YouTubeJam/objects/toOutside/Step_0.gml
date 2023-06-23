@@ -20,3 +20,7 @@ if(player_is_suffocated())
 {
 	show_debug_message("I suffocated!!!");
 }
+
+if(has_player_detect_door(oPodDoor)){
+	room_goto(rLifePod);
+}

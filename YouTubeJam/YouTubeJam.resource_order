@@ -44,5 +44,6 @@
     {"name":"toHazards","order":4,"path":"objects/toHazards/toHazards.yy",},
     {"name":"rLifePod","order":5,"path":"rooms/rLifePod/rLifePod.yy",},
     {"name":"trMovement","order":1,"path":"rooms/trMovement/trMovement.yy",},
+    {"name":"oPodDoor","order":9,"path":"objects/oPodDoor/oPodDoor.yy",},
   ],
 }

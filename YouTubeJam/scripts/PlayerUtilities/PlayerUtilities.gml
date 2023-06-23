@@ -64,10 +64,10 @@ function has_player_detect_lava(){
 	return false;
 }
 
-function has_player_detect_door(){
-	for (var i = 0; i < instance_number(oDoor); ++i;)
+function has_player_detect_door(d){
+	for (var i = 0; i < instance_number(d); ++i;)
 	{
-	    var door = instance_find(oDoor, i);
+	    var door = instance_find(d, i);
 		if(door != noone){	
 			with(door){
 				var player = instance_place(x, y, oPlayer);
@@ -79,6 +79,7 @@ function has_player_detect_door(){
 	}
 	return false;
 }
+
 
 
 

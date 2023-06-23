@@ -64,6 +64,7 @@
     {"id":{"name":"toHazards","path":"objects/toHazards/toHazards.yy",},},
     {"id":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
     {"id":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
+    {"id":{"name":"oPodDoor","path":"objects/oPodDoor/oPodDoor.yy",},},
     {"id":{"name":"toScans","path":"objects/toScans/toScans.yy",},},
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
   ],
