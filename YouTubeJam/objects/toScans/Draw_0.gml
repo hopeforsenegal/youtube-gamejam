@@ -1,6 +1,6 @@
 
 coneangle += keyboard_check(vk_left)-keyboard_check(vk_right);
-generate_scans();
+
 if(keyboard_check(vk_space))
 {
 	var _surf = render_scan(global.env_maparray,256,256,coneangle,0.3,0);
