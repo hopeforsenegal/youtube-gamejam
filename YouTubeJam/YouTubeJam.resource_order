@@ -12,10 +12,10 @@
     {"name":"Shaders","order":9,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":10,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":11,"path":"folders/Sprites.yy",},
-    {"name":"Tile Sets","order":12,"path":"folders/Tile Sets.yy",},
-    {"name":"Timelines","order":13,"path":"folders/Timelines.yy",},
     {"name":"lava","order":30,"path":"folders/Sprites/lava.yy",},
     {"name":"ship","order":31,"path":"folders/Sprites/ship.yy",},
+    {"name":"Tile Sets","order":12,"path":"folders/Tile Sets.yy",},
+    {"name":"Timelines","order":13,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"gun","order":6,"path":"sprites/gun/gun.yy",},
