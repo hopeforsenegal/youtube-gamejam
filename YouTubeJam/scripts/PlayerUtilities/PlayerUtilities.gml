@@ -89,10 +89,10 @@ function gui_player_draw_health(gui_width){
 
 
 
-function create_ui()
+function create_ui(_ui)
 {
 	oPlayer.canMove = false;
-	return instance_create_layer(0,0,"Instances",pUI);
+	return instance_create_layer(0,0,"Instances",_ui);
 }
 
 function destroy_ui(_ui)

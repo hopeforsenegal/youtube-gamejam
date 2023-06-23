@@ -14,7 +14,7 @@ with(oPlayer){
 		}
 		else if(_int.object_index == pInteractable)
 		{
-			create_ui(pUI);
+			create_ui(oScanUI);
 		}
 	}
 }

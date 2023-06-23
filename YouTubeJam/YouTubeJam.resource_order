@@ -25,6 +25,7 @@
     {"name":"hbPlayer","order":13,"path":"sprites/hbPlayer/hbPlayer.yy",},
     {"name":"sHeartOn","order":11,"path":"sprites/sHeartOn/sHeartOn.yy",},
     {"name":"sHeartOff","order":10,"path":"sprites/sHeartOff/sHeartOff.yy",},
+    {"name":"oScanUI","order":8,"path":"objects/oScanUI/oScanUI.yy",},
     {"name":"pUI","order":7,"path":"objects/pUI/pUI.yy",},
     {"name":"pInteractable","order":3,"path":"objects/pInteractable/pInteractable.yy",},
     {"name":"oDoor","order":5,"path":"objects/oDoor/oDoor.yy",},

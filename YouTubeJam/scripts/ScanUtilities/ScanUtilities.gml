@@ -1,4 +1,10 @@
 
+function generate_scans()
+{
+	global.env_maparray = scan(room_width,room_height);
+	global.item_maparray = scan(room_width,room_height,1);
+}
+
 function scan(_roomwidth,_roomheight,_type = 0,_tilesize = 32)
 {
 	var _w = _roomwidth/_tilesize;
@@ -31,7 +37,7 @@ function render_scan_full(_maparray,_type = 0)
 	
 	var _surface = surface_create(_w,_h);
 	surface_set_target(_surface);
-	draw_clear(c_white);
+	draw_clear_alpha(c_white,0);
 	
 	for(var i=0;i<_w;i++)
 	{

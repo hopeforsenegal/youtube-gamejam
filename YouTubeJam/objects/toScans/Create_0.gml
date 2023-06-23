@@ -1,4 +1,3 @@
 
-env_maparray = scan(room_width,room_height);
-item_maparray = scan(room_width,room_height,1);
+generate_scans();
 coneangle = 0;
