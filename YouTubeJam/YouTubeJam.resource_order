@@ -57,7 +57,7 @@
     {"name":"sTextCamera","order":5,"path":"sprites/sTextCamera/sTextCamera.yy",},
     {"name":"lava_bend_up","order":2,"path":"sprites/lava_bend_up/lava_bend_up.yy",},
     {"name":"toMovement","order":8,"path":"objects/toMovement/toMovement.yy",},
-    {"name":"wing","order":4,"path":"sprites/wing/wing.yy",},
+    {"name":"wing1","order":4,"path":"sprites/wing1/wing1.yy",},
     {"name":"sDoor","order":4,"path":"sprites/sDoor/sDoor.yy",},
     {"name":"sTextItems","order":6,"path":"sprites/sTextItems/sTextItems.yy",},
     {"name":"lava_right2","order":9,"path":"sprites/lava_right2/lava_right2.yy",},

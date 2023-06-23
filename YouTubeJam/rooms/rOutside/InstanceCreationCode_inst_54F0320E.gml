@@ -1,1 +1,2 @@
-name = "item 2"
+name = "wing1";
+sprite_index = wing1;
