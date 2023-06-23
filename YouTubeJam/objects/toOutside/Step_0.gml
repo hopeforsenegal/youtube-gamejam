@@ -80,6 +80,10 @@ if(has_player_detect_door(oPodDoor))
 	}
 	else
 	{
+		with(oScanner)
+		{
+			generate_scans();
+		}
 		room_goto(rLifePod);
 	}
 }

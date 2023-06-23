@@ -2,4 +2,4 @@ global.inventory = [];
 global.isWakingUpFrames = 90;
 define_view_size();
 
-if(room == rStart) room_goto(rOutside);
+audio_play_sound(muLifepod,1,1);
