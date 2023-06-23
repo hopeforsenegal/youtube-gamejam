@@ -1,14 +1,16 @@
+
+var player = oPlayer;
+
 if(global.isWakingUp){
 	global.isWakingUp = false;
 	{
-		with(oPlayer)
+		with(player)
 		{
 			skeleton_animation_set("get", false);
 		}
 	}
 }
 
-var player = oPlayer;
 if(has_player_detect_lava())
 {
 	if(!player_is_invincible())
@@ -21,13 +23,20 @@ if(has_player_detect_lava())
 		else
 		{
 			player_do_mark_invincible();
-			show_debug_message("Hit lava! new health is " + string(pHealth));
+			
+			with(player)
+			{
+				if(skeleton_animation_get() != "hit"){
+					skeleton_animation_set("hit",false);
+				}
+			}
 		}
 	}
 }
 var has_interact_input = keyboard_check_pressed(ord("E"));
 
-with(oPlayer){
+with(player)
+{
 	var _int = detect_interactable(x,y,interactRange);
 
 	if(_int != noone)
@@ -36,6 +45,9 @@ with(oPlayer){
 		{
 			if(_int.object_index == pItem)
 			{
+				if(skeleton_animation_get() != "victory"){
+					skeleton_animation_set("victory", false);
+				}
 				player_add_inventory(_int);
 				instance_destroy(_int);
 				with(oScanner)
