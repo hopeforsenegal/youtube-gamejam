@@ -100,6 +100,7 @@
     {"id":{"name":"rock2","path":"sprites/rock2/rock2.yy",},},
     {"id":{"name":"toHazards","path":"objects/toHazards/toHazards.yy",},},
     {"id":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
+    {"id":{"name":"sWallSprite","path":"sprites/sWallSprite/sWallSprite.yy",},},
     {"id":{"name":"rock3","path":"sprites/rock3/rock3.yy",},},
     {"id":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"id":{"name":"muLifepod","path":"sounds/muLifepod/muLifepod.yy",},},
