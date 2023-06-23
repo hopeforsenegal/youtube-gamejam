@@ -142,8 +142,8 @@ function define_view_size()
 function find_cam_pos()
 {
 	return {
-		camx: oPlayer.x-global.view_width/2,
-		camy: oPlayer.y-global.view_height/2
+		camx: clamp(oPlayer.x-global.view_width/2,0,room_width-global.view_width),
+		camy: clamp(oPlayer.y-global.view_height/2,0,room_height-global.view_height)
 	}
 }
 

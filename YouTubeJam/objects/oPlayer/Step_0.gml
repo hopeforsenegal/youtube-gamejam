@@ -59,11 +59,11 @@ if(hasFinishedLastAnimation){
 
 if(!place_meeting(x+_hsp,y,oWall))
 {
-	x += _hsp;
+	x = clamp(x+_hsp,0,room_width);
 }
 if(!place_meeting(x,y+_vsp,oWall))
 {
-	y += _vsp;
+	y = clamp(y+_vsp,64,room_height);
 }
 
 
