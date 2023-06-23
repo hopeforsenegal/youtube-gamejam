@@ -68,7 +68,7 @@ if(player_is_suffocated())
 if(has_player_detect_door(oPodDoor))
 {
 	var itemCount = array_length(global.inventory);
-	if(itemCount >= 2)
+	if(itemCount >= 5)
 	{
 		room_goto(rWin);
 	}
