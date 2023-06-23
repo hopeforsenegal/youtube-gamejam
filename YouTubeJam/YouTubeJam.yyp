@@ -60,6 +60,7 @@
     {"id":{"name":"wing2","path":"sprites/wing2/wing2.yy",},},
     {"id":{"name":"sHeartOn","path":"sprites/sHeartOn/sHeartOn.yy",},},
     {"id":{"name":"toOutside","path":"objects/toOutside/toOutside.yy",},},
+    {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},},
     {"id":{"name":"sHeartOff","path":"sprites/sHeartOff/sHeartOff.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oScanUI","path":"objects/oScanUI/oScanUI.yy",},},

@@ -15,9 +15,9 @@ if(room == rOutside)
 	draw_text_transformed_color(_textx,756,"Missing Parts!\nFind them\nto escape!",2,2,0,c_white,c_white,c_white,c_white,1);
 
 	// Draw right
-	_textx = global.view_width*6/7;
+	/*_textx = global.view_width*6/7;
 	draw_text_transformed_color(_textx,556,"Controls:\nWASD\nArrows\nE to interact",2,2,0,c_white,c_white,c_white,c_white,1);
 	
 	draw_set_halign(fa_left);
-	draw_set_valign(fa_top);
+	draw_set_valign(fa_top);*/
 }
