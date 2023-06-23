@@ -10,5 +10,6 @@
     {"name":"you_died","order":3,"path":"sprites/you_died/you_died.yy",},
     {"name":"sWallSprite","order":2,"path":"sprites/sWallSprite/sWallSprite.yy",},
     {"name":"sDeadYouSuffocated","order":6,"path":"sprites/sDeadYouSuffocated/sDeadYouSuffocated.yy",},
+    {"name":"sMainMenu","order":8,"path":"sprites/sMainMenu/sMainMenu.yy",},
   ],
 }
