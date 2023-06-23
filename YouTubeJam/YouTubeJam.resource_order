@@ -47,6 +47,7 @@
     {"name":"pUI","order":7,"path":"objects/pUI/pUI.yy",},
     {"name":"pInteractable","order":3,"path":"objects/pInteractable/pInteractable.yy",},
     {"name":"oDoor","order":5,"path":"objects/oDoor/oDoor.yy",},
+    {"name":"muOutside","order":1,"path":"sounds/muOutside/muOutside.yy",},
     {"name":"pItem","order":4,"path":"objects/pItem/pItem.yy",},
     {"name":"sInteractable","order":3,"path":"sprites/sInteractable/sInteractable.yy",},
     {"name":"sScanCone","order":1,"path":"sprites/sScanCone/sScanCone.yy",},
