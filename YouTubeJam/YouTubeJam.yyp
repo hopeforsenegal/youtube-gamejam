@@ -88,8 +88,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"trHazards","path":"rooms/trHazards/trHazards.yy",},},
-    {"roomId":{"name":"rOutside","path":"rooms/rOutside/rOutside.yy",},},
     {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
+    {"roomId":{"name":"rOutside","path":"rooms/rOutside/rOutside.yy",},},
     {"roomId":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
     {"roomId":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
     {"roomId":{"name":"rGameOver","path":"rooms/rGameOver/rGameOver.yy",},},
