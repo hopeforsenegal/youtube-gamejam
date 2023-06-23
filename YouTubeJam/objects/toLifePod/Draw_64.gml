@@ -1,4 +1,3 @@
-gui_player_draw_health(oPlayer, gui_w);
 
 if(is_player_interacting_range)
 {	
