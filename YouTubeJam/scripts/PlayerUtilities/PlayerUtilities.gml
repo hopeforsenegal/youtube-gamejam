@@ -17,10 +17,11 @@ function detect_interactable(_x,_y,_range,_enable = true){
 			return noone;
 		}
 	}
+	return noone;
 }
 
 function player_add_inventory(item){
-	array_push(oPlayer.inventory, item.name);
+	array_push(global.inventory, item.name);
 }
 
 function player_is_invincible(){
