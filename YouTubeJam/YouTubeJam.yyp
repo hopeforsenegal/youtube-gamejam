@@ -26,6 +26,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"lava","folderPath":"folders/Sprites/lava.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ship","folderPath":"folders/Sprites/ship.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
