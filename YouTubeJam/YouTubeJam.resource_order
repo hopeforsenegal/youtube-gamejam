@@ -1,9 +1,11 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"win","order":8,"path":"sprites/win/win.yy",},
     {"name":"sDeadYouDied","order":4,"path":"sprites/sDeadYouDied/sDeadYouDied.yy",},
     {"name":"sArrow","order":7,"path":"sprites/sArrow/sArrow.yy",},
     {"name":"sVision","order":3,"path":"sprites/sVision/sVision.yy",},
+    {"name":"sWinYouWin","order":9,"path":"sprites/sWinYouWin/sWinYouWin.yy",},
     {"name":"sTerrainTiles","order":4,"path":"sprites/sTerrainTiles/sTerrainTiles.yy",},
     {"name":"oDeadText","order":1,"path":"objects/oDeadText/oDeadText.yy",},
     {"name":"sDeadYouCrispy","order":5,"path":"sprites/sDeadYouCrispy/sDeadYouCrispy.yy",},
