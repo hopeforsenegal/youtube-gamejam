@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "lava_down",
-    "path": "sprites/lava_down/lava_down.yy",
+    "name": "sLava",
+    "path": "sprites/sLava/sLava.yy",
   },
   "spriteMaskId": null,
   "visible": true,
