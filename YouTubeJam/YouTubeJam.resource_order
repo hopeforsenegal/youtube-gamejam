@@ -3,6 +3,7 @@
   "ResourceOrderSettings": [
     {"name":"sDeadYouDied","order":4,"path":"sprites/sDeadYouDied/sDeadYouDied.yy",},
     {"name":"sVision","order":3,"path":"sprites/sVision/sVision.yy",},
+    {"name":"sTerrainTiles","order":4,"path":"sprites/sTerrainTiles/sTerrainTiles.yy",},
     {"name":"oDeadText","order":1,"path":"objects/oDeadText/oDeadText.yy",},
     {"name":"sDeadYouCrispy","order":5,"path":"sprites/sDeadYouCrispy/sDeadYouCrispy.yy",},
     {"name":"you_died","order":3,"path":"sprites/you_died/you_died.yy",},
