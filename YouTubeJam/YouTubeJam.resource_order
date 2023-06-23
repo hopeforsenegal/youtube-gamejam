@@ -62,6 +62,8 @@
     {"name":"exit","order":33,"path":"sprites/exit/exit.yy",},
     {"name":"lava_down","order":3,"path":"sprites/lava_down/lava_down.yy",},
     {"name":"ship_complete","order":1,"path":"sprites/ship_complete/ship_complete.yy",},
+    {"name":"sLava","order":2,"path":"sprites/sLava/sLava.yy",},
+    {"name":"camera__1_","order":38,"path":"sprites/camera__1_/camera__1_.yy",},
     {"name":"sTextCamera","order":5,"path":"sprites/sTextCamera/sTextCamera.yy",},
     {"name":"lava_bend_up","order":2,"path":"sprites/lava_bend_up/lava_bend_up.yy",},
     {"name":"bg","order":34,"path":"sprites/bg/bg.yy",},
