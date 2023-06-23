@@ -46,6 +46,7 @@
     {"name":"lava_right3","order":10,"path":"sprites/lava_right3/lava_right3.yy",},
     {"name":"oScanner","order":12,"path":"objects/oScanner/oScanner.yy",},
     {"name":"pUI","order":7,"path":"objects/pUI/pUI.yy",},
+    {"name":"title_copy","order":36,"path":"sprites/title_copy/title_copy.yy",},
     {"name":"pInteractable","order":3,"path":"objects/pInteractable/pInteractable.yy",},
     {"name":"oDoor","order":5,"path":"objects/oDoor/oDoor.yy",},
     {"name":"muOutside","order":1,"path":"sounds/muOutside/muOutside.yy",},
