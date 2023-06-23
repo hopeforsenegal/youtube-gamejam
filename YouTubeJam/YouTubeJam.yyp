@@ -67,6 +67,7 @@
     {"id":{"name":"lava_bend_left","path":"sprites/lava_bend_left/lava_bend_left.yy",},},
     {"id":{"name":"pUI","path":"objects/pUI/pUI.yy",},},
     {"id":{"name":"pInteractable","path":"objects/pInteractable/pInteractable.yy",},},
+    {"id":{"name":"oItemUI","path":"objects/oItemUI/oItemUI.yy",},},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"muOutside","path":"sounds/muOutside/muOutside.yy",},},
     {"id":{"name":"pItem","path":"objects/pItem/pItem.yy",},},
