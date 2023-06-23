@@ -1,11 +1,3 @@
-if(isWakingUp){
-	isWakingUp = false;
-	{
-		skeleton_animation_set("get", false);
-	}
-}
-
-
 if(!canMove) exit;
 
 var has_debug_inventory_input	= keyboard_check_pressed(vk_space);
