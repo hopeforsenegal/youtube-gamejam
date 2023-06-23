@@ -86,18 +86,18 @@ function has_player_detect_door(d){
 
 
 function gui_player_draw_oxygen(player, gui_width){	
-	var top_y = 20;
+	var top_y = 30;
 	var center_x = gui_width / 2;
 	var current_oxygen_percentage = player.oxygenRemainingFrames/player.maxOxygenRemaining * 100
 	draw_healthbar(center_x - 50, top_y, center_x + 50, 40, current_oxygen_percentage, c_black, c_red, c_lime, 0, true, true);
 	
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(center_x, top_y + 10, "Oxygen");
+	draw_text(center_x, top_y -10, "Oxygen");
 }
 
 function gui_player_draw_health(player, gui_width){
-	var top_y = 20;
+	var top_y = 30;
 	for (var i = 0; i < player.maxHealth; i += 1)
 	{
 		var heart_position_x = gui_width - 70 - (i * 70);
@@ -108,7 +108,7 @@ function gui_player_draw_health(player, gui_width){
 	}
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(heart_position_x, top_y + 10, "Health");
+	draw_text(heart_position_x + 100, top_y- 10, "Health");
 }
 
 function gui_player_e_to_interact(gui_width, gui_height)
