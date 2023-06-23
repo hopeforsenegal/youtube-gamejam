@@ -30,9 +30,17 @@ function player_is_invincible(){
 function player_is_dead(){
 	return oPlayer.myHealth <= 0;
 }
+function player_is_suffocated(){
+	return oPlayer.oxygenRemainingFrames <= 0;
+}
 
 function player_do_mark_invincible(){
 	oPlayer.invincibilityFrames = 90;
+}
+
+function player_do_decrement_ocygen(){
+	oPlayer.oxygenRemainingFrames = oPlayer.oxygenRemainingFrames - 1;
+	return oPlayer.oxygenRemainingFrames;
 }
 
 function player_do_decrement_health(){
