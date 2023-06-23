@@ -23,7 +23,13 @@ if(has_player_detect_lava())
 		else
 		{
 			player_do_mark_invincible();
-			show_debug_message("Hit lava! new health is " + string(pHealth));
+			
+			with(player)
+			{
+				if(skeleton_animation_get() != "hit"){
+					skeleton_animation_set("hit",false);
+				}
+			}
 		}
 	}
 }
