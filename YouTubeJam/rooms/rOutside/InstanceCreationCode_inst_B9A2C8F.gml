@@ -1,1 +1,1 @@
-name = "rocket booster"
+name = "gun";

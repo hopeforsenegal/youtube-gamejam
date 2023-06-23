@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sDoor",
-    "path": "sprites/sDoor/sDoor.yy",
+    "name": "hub",
+    "path": "sprites/hub/hub.yy",
   },
   "spriteMaskId": null,
   "visible": true,
