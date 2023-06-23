@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sDoor",
-    "path": "sprites/sDoor/sDoor.yy",
+    "name": "exit",
+    "path": "sprites/exit/exit.yy",
   },
   "spriteMaskId": null,
   "visible": true,
