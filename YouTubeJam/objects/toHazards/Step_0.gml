@@ -6,8 +6,9 @@ if(has_player_detect_lava())
 		var pHealth  = player_do_decrement_health();
 		if(player_is_dead())
 		{
-			show_debug_message("I DIED!!!!!!");
-		}else
+			global.death_type = 1;
+		}
+		else
 		{
 			player_do_mark_invincible();
 			show_debug_message("Hit lava! new health is " + string(pHealth));
@@ -18,5 +19,9 @@ if(has_player_detect_lava())
 var oxygenRemaining = player_do_decrement_oxygen();
 if(player_is_suffocated())
 {
-	show_debug_message("I suffocated!!!");
+	global.death_type = 2;
+}
+
+if(global.death_type > 0){
+	room_goto(rGameOver);	
 }
