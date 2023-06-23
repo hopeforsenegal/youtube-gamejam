@@ -1,13 +1,19 @@
 
 var player = oPlayer;
 
-if(global.isWakingUp){
-	global.isWakingUp = false;
-	{
+if(global.isWakingUpFrames > 0){
+	global.isWakingUpFrames--;
 		with(player)
 		{
-			skeleton_animation_set("get", false);
+			canMove = false;
+			if(skeleton_animation_get() != "get"){
+				skeleton_animation_set("get", false);
+			}
 		}
+}else{
+	with(player)
+	{
+		canMove = true;
 	}
 }
 
