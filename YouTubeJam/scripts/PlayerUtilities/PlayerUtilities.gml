@@ -125,8 +125,19 @@ function destroy_ui(_ui)
 	instance_destroy(_ui);
 }
 
+function define_view_size()
+{
+	global.view_width = 1920;
+	global.view_height = 1080;
+}
 
-
+function find_cam_pos()
+{
+	return {
+		camx: oPlayer.x-global.view_width/2,
+		camy: oPlayer.y-global.view_height/2
+	}
+}
 
 
 
