@@ -1,7 +1,7 @@
 
 maxOxygenRemaining		= 60 * 60; // 10 seconds
 oxygenRemainingFrames	= 60 * 60; // 10 seconds
-mySpeed = 4;
+mySpeed = 6;
 interactRange = 70;
 myHealth = 3;
 maxHealth = 3;
