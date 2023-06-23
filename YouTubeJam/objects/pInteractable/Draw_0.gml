@@ -1,8 +1,5 @@
+draw_self();
 if(inrange)
 {
-	draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,0.5);
-}
-else
-{
-	draw_self();
+	draw_text_color(x+16,y-32,"[E]",c_black,c_black,c_black,c_black,1);
 }
