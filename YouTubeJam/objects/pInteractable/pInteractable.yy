@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sInteractable",
-    "path": "sprites/sInteractable/sInteractable.yy",
+    "name": "Rectangle_1_copy",
+    "path": "sprites/Rectangle_1_copy/Rectangle_1_copy.yy",
   },
   "spriteMaskId": null,
   "visible": true,

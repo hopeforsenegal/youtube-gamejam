@@ -93,6 +93,7 @@
     {"id":{"name":"thruster1","path":"sprites/thruster1/thruster1.yy",},},
     {"id":{"name":"lava_left2","path":"sprites/lava_left2/lava_left2.yy",},},
     {"id":{"name":"toLifePod","path":"objects/toLifePod/toLifePod.yy",},},
+    {"id":{"name":"Rectangle_1_copy","path":"sprites/Rectangle_1_copy/Rectangle_1_copy.yy",},},
     {"id":{"name":"lava_left3","path":"sprites/lava_left3/lava_left3.yy",},},
     {"id":{"name":"rock2","path":"sprites/rock2/rock2.yy",},},
     {"id":{"name":"toHazards","path":"objects/toHazards/toHazards.yy",},},
