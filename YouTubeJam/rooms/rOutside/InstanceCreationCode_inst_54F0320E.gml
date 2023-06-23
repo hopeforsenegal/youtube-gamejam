@@ -1,2 +1,2 @@
-name = "wing1";
+name = "Left Wing";
 sprite_index = wing1;
