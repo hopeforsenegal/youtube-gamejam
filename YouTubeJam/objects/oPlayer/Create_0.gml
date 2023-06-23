@@ -7,3 +7,4 @@ myHealth = 3;
 maxHealth = 3;
 invincibilityFrames = 0;
 canMove = true;
+image_speed = 1.2;
