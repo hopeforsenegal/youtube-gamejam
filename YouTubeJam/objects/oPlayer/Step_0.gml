@@ -1,3 +1,11 @@
+if(isWakingUp){
+	isWakingUp = false;
+	{
+		skeleton_animation_set("point", false);
+	}
+}
+
+
 if(!canMove) exit;
 
 var has_debug_inventory_input	= keyboard_check_pressed(vk_space);
@@ -8,6 +16,16 @@ var v_axis_input = max(keyboard_check(ord("S")), keyboard_check(vk_down))  - max
 var _hsp = h_axis_input * mySpeed;
 var _vsp = v_axis_input * mySpeed;
 
+
+var isLooping = skeleton_animation_is_looping(0);
+var isFinished = skeleton_animation_is_finished(0);
+
+
+var hasFinishedLastAnimation = false;
+if(!isLooping && isFinished){
+	hasFinishedLastAnimation = true;
+}
+
 if(image_xscale < 0 && h_axis_input > 0)
 {
 	image_xscale = abs(image_xscale) * 1;
@@ -17,8 +35,6 @@ else if(image_xscale > 0 && h_axis_input < 0)
 	image_xscale = abs(image_xscale) * -1;
 }
 
-var isLooping = skeleton_animation_is_looping(0);
-var isFinished = skeleton_animation_is_finished(0);
 
 if(isLooping){
 	if(v_axis_input != 0 || h_axis_input != 0)
@@ -40,7 +56,7 @@ if(isLooping){
 	}
 }
 
-if(!isLooping && isFinished){
+if(hasFinishedLastAnimation){
 	// We finshed pointing or being hit
 	skeleton_animation_set("idle", true);
 	show_debug_message("finsihed");

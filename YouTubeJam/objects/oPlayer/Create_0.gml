@@ -8,3 +8,4 @@ maxHealth = 3;
 inventory = []
 invincibilityFrames = 0;
 canMove = true;
+isWakingUp = true;
