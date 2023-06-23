@@ -2,6 +2,7 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"sVision","order":3,"path":"sprites/sVision/sVision.yy",},
+    {"name":"sTerrainTiles","order":4,"path":"sprites/sTerrainTiles/sTerrainTiles.yy",},
     {"name":"sWallSprite","order":2,"path":"sprites/sWallSprite/sWallSprite.yy",},
   ],
 }
