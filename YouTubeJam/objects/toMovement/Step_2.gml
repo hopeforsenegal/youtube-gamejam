@@ -1,1 +1,0 @@
-show_debug_message(is_player_interacting_range);

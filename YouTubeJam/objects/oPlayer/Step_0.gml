@@ -1,7 +1,7 @@
 if(isWakingUp){
 	isWakingUp = false;
 	{
-		skeleton_animation_set("point", false);
+		skeleton_animation_set("get", false);
 	}
 }
 
