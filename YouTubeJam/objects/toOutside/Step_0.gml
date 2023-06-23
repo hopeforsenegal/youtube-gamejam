@@ -22,9 +22,15 @@ if(player_is_suffocated())
 	global.death_type = 2;
 }
 
-if(has_player_detect_door(oPodDoor)){
+if(has_player_detect_door(oPodDoor))
+{
 	room_goto(rLifePod);
 }
-if(global.death_type > 0){
+if(global.death_type > 0)
+{
 	room_goto(rGameOver);	
+}
+if(global.win_type > 0)
+{
+	room_goto(rWin);
 }
