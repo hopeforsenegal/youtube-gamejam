@@ -67,7 +67,15 @@ if(player_is_suffocated())
 
 if(has_player_detect_door(oPodDoor))
 {
-	room_goto(rLifePod);
+	var itemCount = array_length(global.inventory);
+	if(itemCount >= 2)
+	{
+		room_goto(rWin);
+	}
+	else
+	{
+		room_goto(rLifePod);
+	}
 }
 if(global.death_type > 0)
 {
