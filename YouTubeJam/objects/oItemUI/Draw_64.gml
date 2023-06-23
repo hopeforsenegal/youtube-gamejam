@@ -1,6 +1,7 @@
 
 
 draw_rectangle_color(48,16,window_get_width()-48,window_get_height()-48,c_ltgray,c_ltgray,c_ltgray,c_ltgray,0);
+draw_text_transformed_color(256,34,"[Items]",1.5,1.5,0,c_black,c_black,c_black,c_black,1);
 draw_text_transformed_color(256,64,"Press ESC to exit",2,2,0,c_black,c_black,c_black,c_black,1);
 
 draw_set_halign(fa_center);

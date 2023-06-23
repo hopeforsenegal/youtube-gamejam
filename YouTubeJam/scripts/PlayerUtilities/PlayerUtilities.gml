@@ -82,6 +82,12 @@ function has_player_detect_door(d){
 }
 
 
+function handle_player_restart(){
+	if(keyboard_check_pressed(ord("R"))){
+		game_restart();
+	}
+}
+
 
 
 
