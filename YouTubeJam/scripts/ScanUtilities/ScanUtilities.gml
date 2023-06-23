@@ -3,6 +3,8 @@ function generate_scans()
 {
 	global.env_maparray = scan(room_width,room_height);
 	global.item_maparray = scan(room_width,room_height,1);
+	global.scanx = room_width/2;
+	global.scany = room_height/2;
 }
 
 function scan(_roomwidth,_roomheight,_type = 0,_tilesize = 32)
@@ -19,11 +21,17 @@ function scan(_roomwidth,_roomheight,_type = 0,_tilesize = 32)
 		var _columnarray = [];
 		for(var j=0;j<_h;j++)
 		{
-			var _obj = instance_place(i*_tilesize,j*_tilesize,_target);
+			var _obj = instance_place(i*_tilesize,j*_tilesize,oWall);
 			if(_obj != noone)
-				array_push(_columnarray,true);
-			else
-				array_push(_columnarray,false);
+				array_push(_columnarray,1);
+			else 
+			{
+				_obj = instance_place(i*_tilesize,j*_tilesize,pItem);
+				if(_obj != noone)
+					array_push(_columnarray,2);
+				else
+					array_push(_columnarray,0);
+			}
 		}
 		array_push(_maparray,_columnarray);
 	}
@@ -43,11 +51,10 @@ function render_scan_full(_maparray,_type = 0)
 	{
 		for(var j=0;j<_h;j++)
 		{
-			if(_maparray[i][j] != 0)
-			{
-				if(_type == 0) draw_point_color(i,j,c_black);
-				else if(_type == 1) draw_sprite(sItemIcon,0,i,j);
-			}
+			if(_maparray[i][j] == 1)
+				draw_point_color(i,j,c_black);
+			else if(_maparray[i][j] == 2)
+				draw_sprite(sItemIcon,0,i,j);
 		}
 	}
 	

@@ -37,6 +37,8 @@
   },
   "resources": [
     {"id":{"name":"gun","path":"sprites/gun/gun.yy",},},
+    {"id":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
+    {"id":{"name":"oGlobal","path":"objects/oGlobal/oGlobal.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"rOutside","path":"rooms/rOutside/rOutside.yy",},},
     {"id":{"name":"thruster2","path":"sprites/thruster2/thruster2.yy",},},
@@ -62,6 +64,7 @@
     {"id":{"name":"oScanUI","path":"objects/oScanUI/oScanUI.yy",},},
     {"id":{"name":"lava_right3","path":"sprites/lava_right3/lava_right3.yy",},},
     {"id":{"name":"PlayerUtilities","path":"scripts/PlayerUtilities/PlayerUtilities.yy",},},
+    {"id":{"name":"oScanner","path":"objects/oScanner/oScanner.yy",},},
     {"id":{"name":"lava_bend_left","path":"sprites/lava_bend_left/lava_bend_left.yy",},},
     {"id":{"name":"pUI","path":"objects/pUI/pUI.yy",},},
     {"id":{"name":"pInteractable","path":"objects/pInteractable/pInteractable.yy",},},
@@ -100,6 +103,7 @@
     {"id":{"name":"oLava","path":"objects/oLava/oLava.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rStart","path":"rooms/rStart/rStart.yy",},},
     {"roomId":{"name":"rOutside","path":"rooms/rOutside/rOutside.yy",},},
     {"roomId":{"name":"trMovement","path":"rooms/trMovement/trMovement.yy",},},
     {"roomId":{"name":"trCamera","path":"rooms/trCamera/trCamera.yy",},},

@@ -19,6 +19,8 @@
   ],
   "ResourceOrderSettings": [
     {"name":"gun","order":6,"path":"sprites/gun/gun.yy",},
+    {"name":"rStart","order":14,"path":"rooms/rStart/rStart.yy",},
+    {"name":"oGlobal","order":11,"path":"objects/oGlobal/oGlobal.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"rOutside","order":7,"path":"rooms/rOutside/rOutside.yy",},
     {"name":"thruster2","order":3,"path":"sprites/thruster2/thruster2.yy",},
@@ -42,6 +44,7 @@
     {"name":"oCamera","order":10,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oScanUI","order":8,"path":"objects/oScanUI/oScanUI.yy",},
     {"name":"lava_right3","order":10,"path":"sprites/lava_right3/lava_right3.yy",},
+    {"name":"oScanner","order":12,"path":"objects/oScanner/oScanner.yy",},
     {"name":"pUI","order":7,"path":"objects/pUI/pUI.yy",},
     {"name":"pInteractable","order":3,"path":"objects/pInteractable/pInteractable.yy",},
     {"name":"oDoor","order":5,"path":"objects/oDoor/oDoor.yy",},

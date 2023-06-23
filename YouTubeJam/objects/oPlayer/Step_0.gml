@@ -63,7 +63,7 @@ if(!place_meeting(x,y+_vsp,oWall))
 // TODO: Remove this debug inventory logging
 if(has_debug_inventory_input)
 {
-	show_debug_message(inventory);
+	show_debug_message(global.inventory);
 }
 
 if(invincibilityFrames > 0){
