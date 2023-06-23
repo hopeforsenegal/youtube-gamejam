@@ -15,7 +15,7 @@ if(has_player_detect_lava())
 	}
 }
 
-var oxygenRemaining = player_do_decrement_ocygen();
+var oxygenRemaining = player_do_decrement_oxygen();
 if(player_is_suffocated())
 {
 	show_debug_message("I suffocated!!!");

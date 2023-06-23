@@ -38,7 +38,7 @@ function player_do_mark_invincible(){
 	oPlayer.invincibilityFrames = 90;
 }
 
-function player_do_decrement_ocygen(){
+function player_do_decrement_oxygen(){
 	oPlayer.oxygenRemainingFrames = oPlayer.oxygenRemainingFrames - 1;
 	return oPlayer.oxygenRemainingFrames;
 }
