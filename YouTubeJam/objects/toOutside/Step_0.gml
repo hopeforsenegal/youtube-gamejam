@@ -1,3 +1,13 @@
+if(global.isWakingUp){
+	global.isWakingUp = false;
+	{
+		with(oPlayer)
+		{
+			skeleton_animation_set("get", false);
+		}
+	}
+}
+
 var player = oPlayer;
 if(has_player_detect_lava())
 {
