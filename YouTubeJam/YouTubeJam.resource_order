@@ -20,6 +20,7 @@
   "ResourceOrderSettings": [
     {"name":"gun","order":6,"path":"sprites/gun/gun.yy",},
     {"name":"rStart","order":14,"path":"rooms/rStart/rStart.yy",},
+    {"name":"bg2","order":35,"path":"sprites/bg2/bg2.yy",},
     {"name":"oGlobal","order":11,"path":"objects/oGlobal/oGlobal.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"rOutside","order":7,"path":"rooms/rOutside/rOutside.yy",},
