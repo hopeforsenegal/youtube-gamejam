@@ -37,7 +37,9 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"rOutside","path":"rooms/rOutside/rOutside.yy",},},
     {"id":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
+    {"id":{"name":"toWin","path":"objects/toWin/toWin.yy",},},
     {"id":{"name":"rGameOver","path":"rooms/rGameOver/rGameOver.yy",},},
+    {"id":{"name":"rWin","path":"rooms/rWin/rWin.yy",},},
     {"id":{"name":"sItemIcon","path":"sprites/sItemIcon/sItemIcon.yy",},},
     {"id":{"name":"sPlayerSpine","path":"sprites/sPlayerSpine/sPlayerSpine.yy",},},
     {"id":{"name":"lava_down_end","path":"sprites/lava_down_end/lava_down_end.yy",},},
@@ -93,6 +95,7 @@
     {"roomId":{"name":"trScans","path":"rooms/trScans/trScans.yy",},},
     {"roomId":{"name":"rLifePod","path":"rooms/rLifePod/rLifePod.yy",},},
     {"roomId":{"name":"rGameOver","path":"rooms/rGameOver/rGameOver.yy",},},
+    {"roomId":{"name":"rWin","path":"rooms/rWin/rWin.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
