@@ -34,6 +34,9 @@
     "name": "sInteractable",
     "path": "sprites/sInteractable/sInteractable.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sInteractable",
+    "path": "sprites/sInteractable/sInteractable.yy",
+  },
   "visible": true,
 }
