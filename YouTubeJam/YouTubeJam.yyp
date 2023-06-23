@@ -89,6 +89,7 @@
     {"id":{"name":"lava_down","path":"sprites/lava_down/lava_down.yy",},},
     {"id":{"name":"ScanUtilities","path":"scripts/ScanUtilities/ScanUtilities.yy",},},
     {"id":{"name":"ship_complete","path":"sprites/ship_complete/ship_complete.yy",},},
+    {"id":{"name":"Sprite51","path":"sprites/Sprite51/Sprite51.yy",},},
     {"id":{"name":"sLava","path":"sprites/sLava/sLava.yy",},},
     {"id":{"name":"sDeadYouCrispy","path":"sprites/sDeadYouCrispy/sDeadYouCrispy.yy",},},
     {"id":{"name":"camera__1_","path":"sprites/camera__1_/camera__1_.yy",},},

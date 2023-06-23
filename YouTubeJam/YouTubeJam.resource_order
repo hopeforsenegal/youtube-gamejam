@@ -6,6 +6,7 @@
     {"name":"sVision","order":3,"path":"sprites/sVision/sVision.yy",},
     {"name":"sTerrainTiles","order":4,"path":"sprites/sTerrainTiles/sTerrainTiles.yy",},
     {"name":"oDeadText","order":1,"path":"objects/oDeadText/oDeadText.yy",},
+    {"name":"Sprite51","order":9,"path":"sprites/Sprite51/Sprite51.yy",},
     {"name":"sDeadYouCrispy","order":5,"path":"sprites/sDeadYouCrispy/sDeadYouCrispy.yy",},
     {"name":"you_died","order":3,"path":"sprites/you_died/you_died.yy",},
     {"name":"sWallSprite","order":2,"path":"sprites/sWallSprite/sWallSprite.yy",},

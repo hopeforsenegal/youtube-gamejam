@@ -1,0 +1,1 @@
+if(todestroy) destroy_ui(self);
